@@ -1,6 +1,6 @@
 package-lock.json
 package.json
 .env
-.env.example
+
 arch.txt
 node_modules
