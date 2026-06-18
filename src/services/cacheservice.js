@@ -1,8 +1,14 @@
 import redis from "../config/redis"
 import env from "../config/env"
 
-async function get(key){
-return await redis.get(key);
+async function get(key) {
+
+    const data =
+    await redis.get(key);
+
+    return data
+        ? JSON.parse(data)
+        : null;
 }
 
 async function set(key,value){

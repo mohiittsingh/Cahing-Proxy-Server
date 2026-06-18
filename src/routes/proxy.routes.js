@@ -3,27 +3,34 @@ const router = express.Router();
 import cacheMiddleware from '../middleware/cache.middleware';
 import  proxyService from '../services/proxy.service';
 import cacheService from '../services/cache.service';
+import env  from '../config/env';
+const targetUrl =`${env.TARGET_API}${req.originalUrl}`;
 
 router.get(
-    '/users',
-    cacheMiddleware,
-    async (req, res) => {
+ '*',
+ cacheMiddleware,
+ async (req,res,next) => {
 
-        const data =
-        await proxyService.fetchData(
-            'https://jsonplaceholder.typicode.com/users'
-        );
+   try {
 
-        const cacheKey =
-        res.locals.cacheKey;
+      const targetUrl =
+      `${env.TARGET_API}${req.originalUrl}`;
 
-        await cacheService.set(
-            cacheKey,
-            data
-        );
+      const data =
+      await proxyService.fetchData(
+          targetUrl
+      );
 
-        return res.json(data);
-    }
-);
+      await cacheService.set(
+          res.locals.cacheKey,
+          data
+      );
+
+      res.json(data);
+
+   } catch(error) {
+      next(error);
+   }
+});
 
 module.exports = router;
