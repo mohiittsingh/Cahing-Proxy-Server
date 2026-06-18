@@ -1,8 +1,11 @@
-import express from 'express'
-import  proxyRoutes from './routes/proxy.routes';
-import errorMiddleware  from './middleware/error.middleware';
-app.use(errorMiddleware);
-app.use('/', proxyRoutes);
-const app=express()
+import express from 'express';
+import proxyRoutes from './routes/proxy.routes.js';
+import errorMiddleware from './middleware/error.middleware.js';
+
+const app = express();
+
 app.use(express.json());
-module.exports = app;
+app.use('/', proxyRoutes);
+app.use(errorMiddleware);
+
+export default app;

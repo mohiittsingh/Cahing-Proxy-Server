@@ -1,33 +1,22 @@
-/* Request comes
-↓
-Generate Redis key
-↓
-Ask Redis
-↓
-Data found?
-↓
-YES → return cached data
-↓
-NO
-↓
-Continue to API  */
+import cacheService from "../services/cacheservice.js";
+import generateCacheKey from "../utils/cachekey.js";
 
-import cacheservice from "../services/cacheservice"
-import generatecachekey from "../utils/cachekey"
-import { cachekey } from '..';
+export default async function cacheMiddleware(req, res, next) {
+  const cacheKey = generateCacheKey(req);
+  const cachedData = await cacheService.get(cacheKey);
 
-async function cacheMiddleware(req,res,next){
-    const cache=generatecachekey(req);
-    const cachedData = await cacheservice.get(cacheKey);
-    if(cachedData){
-        res.set('X-cache',"Hit")
-        return res.json(cachedData)
-    }
-    res.locals.cacheKey = cacheKey;
+ if (cachedData) {
+    console.log(`CACHE HIT -> ${cacheKey}`);
 
-    res.set('X-Cache', 'MISS');
+    res.set('X-Cache', 'HIT');
+    return res.json(cachedData);
+}
 
-    next();
-    module.exports = cacheMiddleware;
+console.log(`CACHE MISS -> ${cacheKey}`);
+
+res.locals.cacheKey = cacheKey;
+res.set('X-Cache', 'MISS');
+
+next();
 
 }

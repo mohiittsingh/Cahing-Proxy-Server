@@ -1,6 +1,8 @@
-const app = require('./app');
-const redis = require('./config/redis');
-const env = require('./config/env');
+
+import app from "./app.js"
+import redis from "./config/redis.js";
+import env from "./config/env.js";
+
 
 async function startServer() {
     try {

@@ -1,12 +1,12 @@
-require('dotenv').config();
+import dotenv from 'dotenv';
 
-module.exports = {
-    PORT: process.env.PORT || 3000,
-    REDIS_HOST: process.env.REDIS_HOST,
-    REDIS_PORT: process.env.REDIS_PORT,
-    CACHE_TTL_SECONDS:Number(process.env.CACHE_TTL_SECONDS) || 300,
+dotenv.config();
 
-    REDIS_PREFIX:process.env.REDIS_PREFIX || 'proxy:cache:',
-    TARGET_API:process.env.TARGET_API
-        
+export default {
+  PORT: process.env.PORT || 3000,
+  REDIS_HOST: process.env.REDIS_HOST || 'localhost',
+  REDIS_PORT: process.env.REDIS_PORT || 6379,
+  CACHE_TTL_SECONDS: Number(process.env.CACHE_TTL_SECONDS) || 300,
+  REDIS_PREFIX: process.env.REDIS_PREFIX || 'proxy:cache:',
+  TARGET_API: process.env.TARGET_API || ''
 };
