@@ -17,6 +17,5 @@ console.log(`CACHE MISS -> ${cacheKey}`);
 res.locals.cacheKey = cacheKey;
 res.set('X-Cache', 'MISS');
 
-next();
-//further chnages to be done
+
 }
