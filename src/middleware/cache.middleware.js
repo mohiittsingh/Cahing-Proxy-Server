@@ -6,18 +6,18 @@ export default async function cacheMiddleware(req, res, next) {
   const cacheKey = generateCacheKey(req);
   const cachedData = await cacheService.get(cacheKey);
 
- if (cachedData) {
+  if (cachedData) {
     metrics.cacheHits++;
     console.log(`CACHE HIT -> ${cacheKey}`);
 
     res.set('X-Cache', 'HIT');
     return res.json(cachedData);
-}
+  }
 
-console.log(`CACHE MISS -> ${cacheKey}`);
+  metrics.cacheMisses++;
+  console.log(`CACHE MISS -> ${cacheKey}`);
 
-res.locals.cacheKey = cacheKey;
-res.set('X-Cache', 'MISS');
-
-
+  res.locals.cacheKey = cacheKey;
+  res.set('X-Cache', 'MISS');
+  next();
 }
