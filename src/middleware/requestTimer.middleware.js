@@ -12,6 +12,9 @@ export default function requestTimer(req, res, next) {
         logger.info(
             `${req.method} ${req.originalUrl} -> ${duration}ms`
         );
+//         logger.info(
+//         `Origin API ${url} responded in ${apiLatency}ms`
+// );
     });
 
     next();

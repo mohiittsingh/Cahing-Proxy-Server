@@ -1,6 +1,6 @@
 import logger from "../config/logger.js";
 function errorMiddleware(err, req, res, next) {
-  logger.error(error.message);
+  logger.error(err.message);
 
   const statusCode = err.statusCode || 500;
 

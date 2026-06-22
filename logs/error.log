@@ -1,0 +1,14 @@
+2026-06-22T20:06:41.192Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:43.406Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:43.990Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:44.429Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:07:03.762Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:05.558Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.047Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.215Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.454Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.677Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.895Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:17.611Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:09:39.776Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 34ms
+2026-06-22T20:09:39.784Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404

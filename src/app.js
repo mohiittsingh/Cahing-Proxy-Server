@@ -5,7 +5,9 @@ import metricsMiddleware from './middleware/metrics.middleware.js';
 import statsRoutes from './routes/stats.routes.js';
 import healthRoutes from './routes/health.routes.js';
 import requestTimer from './middleware/requestTimer.middleware.js';
+
 const app = express();
+
 app.use(requestTimer);
 app.use(metricsMiddleware);
 app.use(healthRoutes);

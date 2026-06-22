@@ -1,63 +1,118 @@
-2026-06-22T14:55:04.919Z [INFO] CACHE MISS-> proxy:cache:GET:/users
-2026-06-22T14:55:05.234Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
-2026-06-22T14:55:12.891Z [INFO] CACHE HIT -> proxy:cache:GET:/users
-2026-06-22T14:55:12.993Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T14:55:13.313Z [INFO] CACHE HIT -> proxy:cache:GET:/users
-2026-06-22T14:55:13.450Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T14:55:13.654Z [INFO] CACHE HIT -> proxy:cache:GET:/users
-2026-06-22T14:55:13.742Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:29.292Z [INFO] CACHE MISS-> proxy:cache:GET:/users
-2026-06-22T15:46:29.684Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:31.584Z [INFO] CACHE HIT -> proxy:cache:GET:/users
-2026-06-22T15:46:31.690Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:32.087Z [INFO] CACHE HIT -> proxy:cache:GET:/users
-2026-06-22T15:46:32.226Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:32.569Z [INFO] CACHE HIT -> proxy:cache:GET:/users
-2026-06-22T15:46:32.642Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:38.130Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
-2026-06-22T15:46:38.354Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:39.857Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
-2026-06-22T15:46:39.962Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:40.326Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
-2026-06-22T15:46:40.445Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:40.746Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
-2026-06-22T15:46:40.873Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:52.432Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:53.623Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:54.007Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:54.639Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:55.256Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:55.539Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:55.790Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:56.690Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:56.932Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:57.283Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:57.825Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:58.081Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:58.300Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:58.535Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:58.802Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:58.997Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:59.201Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:59.405Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:59.626Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:46:59.878Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:00.112Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:00.322Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:00.532Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:00.681Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:00.923Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:01.125Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:01.358Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:01.548Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:01.727Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:01.935Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:02.138Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:02.332Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:02.599Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:02.800Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:02.969Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:03.269Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:04.524Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:04.722Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
-2026-06-22T15:47:04.908Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T19:59:37.443Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T19:59:37.464Z [INFO] GET /posts -> 32ms
+2026-06-22T19:59:37.566Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T19:59:37.569Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T19:59:38.140Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T19:59:38.144Z [INFO] GET /posts -> 8ms
+2026-06-22T19:59:38.244Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T19:59:38.246Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T19:59:38.869Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T19:59:38.873Z [INFO] GET /posts -> 7ms
+2026-06-22T19:59:39.059Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T19:59:39.062Z [INFO] GET /favicon.ico -> 9ms
+2026-06-22T20:03:37.039Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T20:03:37.055Z [INFO] GET /posts -> 24ms
+2026-06-22T20:03:37.261Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:03:37.465Z [INFO] GET /favicon.ico -> 208ms
+2026-06-22T20:03:37.484Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T20:03:37.492Z [INFO] GET /posts -> 17ms
+2026-06-22T20:03:37.665Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:03:37.670Z [INFO] GET /favicon.ico -> 12ms
+2026-06-22T20:03:37.928Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T20:03:37.932Z [INFO] GET /posts -> 9ms
+2026-06-22T20:03:38.065Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:03:38.067Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:03:38.329Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T20:03:38.331Z [INFO] GET /posts -> 5ms
+2026-06-22T20:03:38.419Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:03:38.421Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:04:24.747Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T20:04:25.004Z [INFO] GET /posts -> 266ms
+2026-06-22T20:04:25.274Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T20:04:25.358Z [INFO] GET /posts -> 89ms
+2026-06-22T20:06:40.949Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T20:06:41.192Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:41.200Z [INFO] GET /posts -> 269ms
+2026-06-22T20:06:41.266Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:06:41.271Z [INFO] GET /favicon.ico -> 11ms
+2026-06-22T20:06:43.340Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T20:06:43.406Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:43.411Z [INFO] GET /posts -> 76ms
+2026-06-22T20:06:43.510Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:06:43.522Z [INFO] GET /favicon.ico -> 19ms
+2026-06-22T20:06:43.965Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T20:06:43.990Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:43.994Z [INFO] GET /posts -> 31ms
+2026-06-22T20:06:44.073Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:06:44.078Z [INFO] GET /favicon.ico -> 11ms
+2026-06-22T20:06:44.408Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T20:06:44.429Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/posts: startTime is not defined
+2026-06-22T20:06:44.435Z [INFO] GET /posts -> 30ms
+2026-06-22T20:06:44.504Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:06:44.507Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:07:03.689Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:03.762Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:03.770Z [INFO] GET /users -> 88ms
+2026-06-22T20:07:03.870Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:03.874Z [INFO] GET /favicon.ico -> 12ms
+2026-06-22T20:07:05.523Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:05.558Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:05.568Z [INFO] GET /users -> 51ms
+2026-06-22T20:07:05.643Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:05.652Z [INFO] GET /favicon.ico -> 16ms
+2026-06-22T20:07:06.021Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:06.047Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.055Z [INFO] GET /users -> 36ms
+2026-06-22T20:07:06.145Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:06.147Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:07:06.197Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:06.215Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.218Z [INFO] GET /users -> 23ms
+2026-06-22T20:07:06.305Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:06.308Z [INFO] GET /favicon.ico -> 9ms
+2026-06-22T20:07:06.423Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:06.454Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.459Z [INFO] GET /users -> 39ms
+2026-06-22T20:07:06.536Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:06.539Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:07:06.652Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:06.677Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.687Z [INFO] GET /users -> 38ms
+2026-06-22T20:07:06.758Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:06.761Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:07:06.870Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:07:06.895Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/users: startTime is not defined
+2026-06-22T20:07:06.898Z [INFO] GET /users -> 31ms
+2026-06-22T20:07:06.965Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:07:06.968Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T20:07:16.864Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:07:17.611Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:07:17.614Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 755ms
+2026-06-22T20:09:39.431Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:09:39.631Z [INFO] Origin API https://jsonplaceholder.typicode.com/users responded in 190ms
+2026-06-22T20:09:39.644Z [INFO] GET /users -> 224ms
+2026-06-22T20:09:39.740Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:09:39.776Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 34ms
+2026-06-22T20:09:39.784Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:09:39.790Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 53ms
+2026-06-22T20:09:39.874Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:09:39.900Z [INFO] Origin API https://jsonplaceholder.typicode.com/favicon.ico responded in 24ms
+2026-06-22T20:09:39.909Z [INFO] GET /favicon.ico -> 42ms
+2026-06-22T20:09:43.558Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:09:43.560Z [INFO] GET /users -> 7ms
+2026-06-22T20:09:43.718Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:09:43.722Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T20:09:43.898Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:10:55.527Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:10:55.649Z [INFO] Origin API https://jsonplaceholder.typicode.com/comments responded in 120ms
+2026-06-22T20:10:55.701Z [INFO] GET /comments -> 179ms
+2026-06-22T20:10:55.999Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:10:56.004Z [INFO] GET /favicon.ico -> 11ms
+2026-06-22T20:11:12.194Z [INFO] CACHE HIT -> proxy:cache:GET:/comments
+2026-06-22T20:11:12.201Z [INFO] GET /comments -> 33ms
+2026-06-22T20:11:12.535Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:11:12.538Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T20:11:13.212Z [INFO] CACHE HIT -> proxy:cache:GET:/comments
+2026-06-22T20:11:13.221Z [INFO] GET /comments -> 19ms
+2026-06-22T20:11:13.533Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:11:13.535Z [INFO] GET /favicon.ico -> 4ms
