@@ -326,3 +326,38 @@
 2026-06-22T20:41:37.261Z [INFO] GET /users -> 8ms
 2026-06-22T20:41:37.396Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
 2026-06-22T20:41:37.399Z [INFO] GET /favicon.ico -> 9ms
+2026-06-22T20:49:57.559Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:49:57.646Z [INFO] Origin API https://jsonplaceholder.typicode.com/users responded in 86ms
+2026-06-22T20:49:57.658Z [INFO] GET /users -> 104ms
+2026-06-22T20:49:57.830Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:49:57.851Z [INFO] Origin API https://jsonplaceholder.typicode.com/favicon.ico responded in 20ms
+2026-06-22T20:49:57.856Z [INFO] GET /favicon.ico -> 28ms
+2026-06-22T20:49:58.399Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:49:58.405Z [INFO] GET /users -> 10ms
+2026-06-22T20:49:58.472Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:49:58.473Z [INFO] GET /favicon.ico -> 3ms
+2026-06-22T20:49:59.263Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:49:59.266Z [INFO] GET /users -> 7ms
+2026-06-22T20:49:59.363Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:49:59.365Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:50:22.205Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:50:22.207Z [INFO] GET /users -> 4ms
+2026-06-22T20:50:22.261Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:50:22.263Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:50:22.945Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:50:22.947Z [INFO] GET /users -> 6ms
+2026-06-22T20:50:23.027Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:50:23.029Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:50:23.709Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:50:23.712Z [INFO] GET /users -> 6ms
+2026-06-22T20:50:23.780Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:50:23.782Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:51:49.218Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:51:49.280Z [INFO] Origin API https://jsonplaceholder.typicode.com/comments responded in 61ms
+2026-06-22T20:51:49.294Z [INFO] GET /comments -> 79ms
+2026-06-22T20:51:49.615Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:51:49.618Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T20:51:52.020Z [INFO] CACHE HIT -> proxy:cache:GET:/comments
+2026-06-22T20:51:52.026Z [INFO] GET /comments -> 15ms
+2026-06-22T20:51:52.380Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:51:52.383Z [INFO] GET /favicon.ico -> 8ms

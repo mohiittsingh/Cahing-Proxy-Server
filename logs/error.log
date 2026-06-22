@@ -60,3 +60,21 @@
 2026-06-22T20:28:53.014Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
 2026-06-22T20:28:53.104Z [ERROR] Origin API undefined/favicon.ico failed after 4ms
 2026-06-22T20:28:53.108Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:41:04.169Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 37ms
+2026-06-22T20:41:04.189Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:10.837Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 42ms
+2026-06-22T20:41:10.838Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.018Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 19ms
+2026-06-22T20:41:11.018Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.287Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 16ms
+2026-06-22T20:41:11.288Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.580Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 22ms
+2026-06-22T20:41:11.584Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.815Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 16ms
+2026-06-22T20:41:11.817Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:12.112Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 42ms
+2026-06-22T20:41:12.116Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:12.392Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 22ms
+2026-06-22T20:41:12.396Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:12.747Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 18ms
+2026-06-22T20:41:12.748Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
