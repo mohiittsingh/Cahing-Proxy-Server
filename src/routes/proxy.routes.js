@@ -8,7 +8,13 @@ const router = express.Router();
 
 router.get(/.*/, cacheMiddleware, async (req, res, next) => {
   try {
-    const targetUrl = `${origin.TARGET_API}${req.originalUrl}`;
+    const upstreamOrigin = origin.getOrigin();
+
+    if (!upstreamOrigin) {
+      throw new Error('TARGET_API is not configured');
+    }
+
+    const targetUrl = new URL(req.originalUrl, upstreamOrigin).toString();
     const data = await proxyService.fetchData(targetUrl);
 
     await cacheService.set(res.locals.cacheKey, data);

@@ -12,3 +12,51 @@
 2026-06-22T20:07:17.611Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
 2026-06-22T20:09:39.776Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 34ms
 2026-06-22T20:09:39.784Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:19:31.954Z [ERROR] Origin API undefined/comments failed after 15ms
+2026-06-22T20:19:31.961Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:19:32.103Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:19:32.104Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:19:44.338Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 2ms
+2026-06-22T20:19:44.339Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:31.510Z [ERROR] Origin API undefined/comments failed after 10ms
+2026-06-22T20:25:31.514Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:31.627Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:31.628Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:31.706Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:31.711Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:32.391Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:32.393Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:32.500Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 2ms
+2026-06-22T20:25:32.501Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:32.608Z [ERROR] Origin API undefined/favicon.ico failed after 1ms
+2026-06-22T20:25:32.609Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:32.776Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:32.777Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:32.868Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:32.869Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:32.948Z [ERROR] Origin API undefined/favicon.ico failed after 4ms
+2026-06-22T20:25:32.949Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:32.983Z [ERROR] Origin API undefined/comments failed after 3ms
+2026-06-22T20:25:32.986Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:33.115Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 2ms
+2026-06-22T20:25:33.117Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:33.208Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:33.210Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:33.369Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:33.371Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:33.465Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:33.467Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:33.556Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:33.557Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:33.767Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:33.768Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:33.847Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:33.849Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:33.943Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:33.947Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:28:52.867Z [ERROR] Origin API undefined/users failed after 16ms
+2026-06-22T20:28:52.872Z [ERROR] Failed to fetch upstream data from undefined/users: Invalid URL
+2026-06-22T20:28:53.008Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 3ms
+2026-06-22T20:28:53.014Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:28:53.104Z [ERROR] Origin API undefined/favicon.ico failed after 4ms
+2026-06-22T20:28:53.108Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL

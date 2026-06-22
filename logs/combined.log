@@ -116,3 +116,213 @@
 2026-06-22T20:11:13.221Z [INFO] GET /comments -> 19ms
 2026-06-22T20:11:13.533Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
 2026-06-22T20:11:13.535Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:19:31.932Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:19:31.954Z [ERROR] Origin API undefined/comments failed after 15ms
+2026-06-22T20:19:31.961Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:19:32.001Z [INFO] GET /comments -> 81ms
+2026-06-22T20:19:32.100Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:19:32.103Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:19:32.104Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:19:32.107Z [INFO] GET /favicon.ico -> 12ms
+2026-06-22T20:19:44.335Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:19:44.338Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 2ms
+2026-06-22T20:19:44.339Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:19:44.348Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 17ms
+2026-06-22T20:25:31.492Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:25:31.510Z [ERROR] Origin API undefined/comments failed after 10ms
+2026-06-22T20:25:31.514Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:31.537Z [INFO] GET /comments -> 55ms
+2026-06-22T20:25:31.624Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:25:31.627Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:31.628Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:31.631Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 11ms
+2026-06-22T20:25:31.699Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:25:31.706Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:31.711Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:31.717Z [INFO] GET /favicon.ico -> 31ms
+2026-06-22T20:25:32.389Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:25:32.391Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:32.393Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:32.397Z [INFO] GET /comments -> 11ms
+2026-06-22T20:25:32.497Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:25:32.500Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 2ms
+2026-06-22T20:25:32.501Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:32.504Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 12ms
+2026-06-22T20:25:32.606Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:25:32.608Z [ERROR] Origin API undefined/favicon.ico failed after 1ms
+2026-06-22T20:25:32.609Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:32.612Z [INFO] GET /favicon.ico -> 9ms
+2026-06-22T20:25:32.775Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:25:32.776Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:32.777Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:32.779Z [INFO] GET /comments -> 8ms
+2026-06-22T20:25:32.866Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:25:32.868Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:32.869Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:32.872Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 11ms
+2026-06-22T20:25:32.943Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:25:32.948Z [ERROR] Origin API undefined/favicon.ico failed after 4ms
+2026-06-22T20:25:32.949Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:32.954Z [INFO] GET /favicon.ico -> 18ms
+2026-06-22T20:25:32.978Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:25:32.983Z [ERROR] Origin API undefined/comments failed after 3ms
+2026-06-22T20:25:32.986Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:33.030Z [INFO] GET /comments -> 63ms
+2026-06-22T20:25:33.112Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:25:33.115Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 2ms
+2026-06-22T20:25:33.117Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:33.122Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 17ms
+2026-06-22T20:25:33.205Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:25:33.208Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:33.210Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:33.214Z [INFO] GET /favicon.ico -> 14ms
+2026-06-22T20:25:33.366Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:25:33.369Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:33.371Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:33.377Z [INFO] GET /comments -> 14ms
+2026-06-22T20:25:33.462Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:25:33.465Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:33.467Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:33.473Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 15ms
+2026-06-22T20:25:33.553Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:25:33.556Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:33.557Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:33.561Z [INFO] GET /favicon.ico -> 11ms
+2026-06-22T20:25:33.765Z [INFO] CACHE MISS-> proxy:cache:GET:/comments
+2026-06-22T20:25:33.767Z [ERROR] Origin API undefined/comments failed after 1ms
+2026-06-22T20:25:33.768Z [ERROR] Failed to fetch upstream data from undefined/comments: Invalid URL
+2026-06-22T20:25:33.770Z [INFO] GET /comments -> 7ms
+2026-06-22T20:25:33.845Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:25:33.847Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 1ms
+2026-06-22T20:25:33.849Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:25:33.855Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 14ms
+2026-06-22T20:25:33.940Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:25:33.943Z [ERROR] Origin API undefined/favicon.ico failed after 2ms
+2026-06-22T20:25:33.947Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:25:33.952Z [INFO] GET /favicon.ico -> 18ms
+2026-06-22T20:28:52.842Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:28:52.867Z [ERROR] Origin API undefined/users failed after 16ms
+2026-06-22T20:28:52.872Z [ERROR] Failed to fetch upstream data from undefined/users: Invalid URL
+2026-06-22T20:28:52.902Z [INFO] GET /users -> 69ms
+2026-06-22T20:28:53.003Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:28:53.008Z [ERROR] Origin API undefined/.well-known/appspecific/com.chrome.devtools.json failed after 3ms
+2026-06-22T20:28:53.014Z [ERROR] Failed to fetch upstream data from undefined/.well-known/appspecific/com.chrome.devtools.json: Invalid URL
+2026-06-22T20:28:53.024Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 27ms
+2026-06-22T20:28:53.096Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:28:53.104Z [ERROR] Origin API undefined/favicon.ico failed after 4ms
+2026-06-22T20:28:53.108Z [ERROR] Failed to fetch upstream data from undefined/favicon.ico: Invalid URL
+2026-06-22T20:28:53.120Z [INFO] GET /favicon.ico -> 34ms
+2026-06-22T20:41:03.791Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T20:41:04.015Z [INFO] Origin API https://jsonplaceholder.typicode.com/users responded in 216ms
+2026-06-22T20:41:04.038Z [INFO] GET /users -> 257ms
+2026-06-22T20:41:04.130Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:04.169Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 37ms
+2026-06-22T20:41:04.189Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:04.199Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 76ms
+2026-06-22T20:41:04.297Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:04.343Z [INFO] Origin API https://jsonplaceholder.typicode.com/favicon.ico responded in 42ms
+2026-06-22T20:41:04.363Z [INFO] GET /favicon.ico -> 75ms
+2026-06-22T20:41:10.722Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:10.727Z [INFO] GET /users -> 9ms
+2026-06-22T20:41:10.794Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:10.837Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 42ms
+2026-06-22T20:41:10.838Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:10.840Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 51ms
+2026-06-22T20:41:10.865Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:10.867Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:41:10.940Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:10.943Z [INFO] GET /users -> 6ms
+2026-06-22T20:41:10.998Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:11.018Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 19ms
+2026-06-22T20:41:11.018Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.020Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 26ms
+2026-06-22T20:41:11.094Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:11.096Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:41:11.221Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:11.223Z [INFO] GET /users -> 5ms
+2026-06-22T20:41:11.270Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:11.287Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 16ms
+2026-06-22T20:41:11.288Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.291Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 26ms
+2026-06-22T20:41:11.367Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:11.370Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:41:11.464Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:11.473Z [INFO] GET /users -> 15ms
+2026-06-22T20:41:11.556Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:11.580Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 22ms
+2026-06-22T20:41:11.584Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.592Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 42ms
+2026-06-22T20:41:11.674Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:11.677Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:41:11.734Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:11.735Z [INFO] GET /users -> 3ms
+2026-06-22T20:41:11.798Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:11.815Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 16ms
+2026-06-22T20:41:11.817Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:11.821Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 28ms
+2026-06-22T20:41:11.937Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:11.939Z [INFO] GET /favicon.ico -> 6ms
+2026-06-22T20:41:11.992Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:11.994Z [INFO] GET /users -> 6ms
+2026-06-22T20:41:12.066Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:12.112Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 42ms
+2026-06-22T20:41:12.116Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:12.123Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 62ms
+2026-06-22T20:41:12.177Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:12.178Z [INFO] GET /favicon.ico -> 3ms
+2026-06-22T20:41:12.305Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:12.309Z [INFO] GET /users -> 9ms
+2026-06-22T20:41:12.368Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:12.392Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 22ms
+2026-06-22T20:41:12.396Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:12.400Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 36ms
+2026-06-22T20:41:12.513Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:12.515Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:41:12.650Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:12.653Z [INFO] GET /users -> 7ms
+2026-06-22T20:41:12.728Z [INFO] CACHE MISS-> proxy:cache:GET:/.well-known/appspecific/com.chrome.devtools.json
+2026-06-22T20:41:12.747Z [ERROR] Origin API https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json failed after 18ms
+2026-06-22T20:41:12.748Z [ERROR] Failed to fetch upstream data from https://jsonplaceholder.typicode.com/.well-known/appspecific/com.chrome.devtools.json: Request failed with status code 404
+2026-06-22T20:41:12.752Z [INFO] GET /.well-known/appspecific/com.chrome.devtools.json -> 30ms
+2026-06-22T20:41:12.873Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:12.876Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:41:33.697Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:33.698Z [INFO] GET /users -> 4ms
+2026-06-22T20:41:33.835Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:33.838Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T20:41:34.090Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:34.093Z [INFO] GET /users -> 6ms
+2026-06-22T20:41:34.209Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:34.212Z [INFO] GET /favicon.ico -> 8ms
+2026-06-22T20:41:34.462Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:34.463Z [INFO] GET /users -> 3ms
+2026-06-22T20:41:34.542Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:34.544Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:41:34.795Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:34.797Z [INFO] GET /users -> 4ms
+2026-06-22T20:41:34.885Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:34.887Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:41:35.264Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:35.266Z [INFO] GET /users -> 5ms
+2026-06-22T20:41:35.353Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:35.354Z [INFO] GET /favicon.ico -> 4ms
+2026-06-22T20:41:35.614Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:35.615Z [INFO] GET /users -> 3ms
+2026-06-22T20:41:35.693Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:35.694Z [INFO] GET /favicon.ico -> 2ms
+2026-06-22T20:41:35.991Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:35.993Z [INFO] GET /users -> 4ms
+2026-06-22T20:41:36.078Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:36.080Z [INFO] GET /favicon.ico -> 7ms
+2026-06-22T20:41:36.438Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:36.440Z [INFO] GET /users -> 5ms
+2026-06-22T20:41:36.542Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:36.543Z [INFO] GET /favicon.ico -> 5ms
+2026-06-22T20:41:36.856Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:36.859Z [INFO] GET /users -> 7ms
+2026-06-22T20:41:37.015Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:37.020Z [INFO] GET /favicon.ico -> 9ms
+2026-06-22T20:41:37.258Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T20:41:37.261Z [INFO] GET /users -> 8ms
+2026-06-22T20:41:37.396Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T20:41:37.399Z [INFO] GET /favicon.ico -> 9ms
