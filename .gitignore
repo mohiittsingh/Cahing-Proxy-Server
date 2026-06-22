@@ -1,6 +1,6 @@
 package-lock.json
 package.json
 .env
-
+phases.txt
 arch.txt
 node_modules

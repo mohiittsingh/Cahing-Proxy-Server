@@ -14,6 +14,7 @@ redis.on('ready', () => {
 });
 redis.on('end', () => {
   console.log('Redis connection closed');
+  
 });
 
 export default redis;

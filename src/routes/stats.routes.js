@@ -1,9 +1,13 @@
 import express from 'express';
 import metrics from '../metrics/metrics.store.js';
+import redis from '../config/redis.js';
 
 const router = express.Router();
 
-router.get('/stats', (req, res) => {
+
+router.get('/stats', async (req, res) => {
+   const keys =
+    await redis.keys('proxy:cache:*');
 
     const hitRate =
         metrics.totalRequests === 0
@@ -24,7 +28,14 @@ router.get('/stats', (req, res) => {
             metrics.cacheMisses,
 
         hitRate:
-            `${hitRate.toFixed(2)}%`
+            `${hitRate.toFixed(2)}%`,
+            
+        redisKeys:
+        keys.length
+            
+
+
+            
     });
 
 });

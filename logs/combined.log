@@ -1,0 +1,63 @@
+2026-06-22T14:55:04.919Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T14:55:05.234Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T14:55:12.891Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T14:55:12.993Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T14:55:13.313Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T14:55:13.450Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T14:55:13.654Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T14:55:13.742Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:29.292Z [INFO] CACHE MISS-> proxy:cache:GET:/users
+2026-06-22T15:46:29.684Z [INFO] CACHE MISS-> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:31.584Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T15:46:31.690Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:32.087Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T15:46:32.226Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:32.569Z [INFO] CACHE HIT -> proxy:cache:GET:/users
+2026-06-22T15:46:32.642Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:38.130Z [INFO] CACHE MISS-> proxy:cache:GET:/posts
+2026-06-22T15:46:38.354Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:39.857Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T15:46:39.962Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:40.326Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T15:46:40.445Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:40.746Z [INFO] CACHE HIT -> proxy:cache:GET:/posts
+2026-06-22T15:46:40.873Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:52.432Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:53.623Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:54.007Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:54.639Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:55.256Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:55.539Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:55.790Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:56.690Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:56.932Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:57.283Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:57.825Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:58.081Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:58.300Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:58.535Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:58.802Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:58.997Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:59.201Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:59.405Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:59.626Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:46:59.878Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:00.112Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:00.322Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:00.532Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:00.681Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:00.923Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:01.125Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:01.358Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:01.548Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:01.727Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:01.935Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:02.138Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:02.332Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:02.599Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:02.800Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:02.969Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:03.269Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:04.524Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:04.722Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico
+2026-06-22T15:47:04.908Z [INFO] CACHE HIT -> proxy:cache:GET:/favicon.ico

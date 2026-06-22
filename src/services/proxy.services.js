@@ -2,6 +2,7 @@ import axios from 'axios';
 import env from '../config/env.js';
 
 async function fetchData(url) {
+  
   try {
     const response = await axios.get(url, {
       timeout: Number(env.PROXY_TIMEOUT_MS) || 5000
