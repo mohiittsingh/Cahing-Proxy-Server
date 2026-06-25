@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ CacheGate
+# ⚡ Caching-Proxy-Gateway!
 
 ### A Redis-Powered API Gateway for High-Performance Caching
 
