@@ -1,67 +1,75 @@
-# 🚀 Redis-Powered Caching API Gateway
+<div align="center">
 
-A high-performance API Gateway built with Node.js, Express, and Redis that reduces repeated external API calls through intelligent response caching, TTL-based expiration, request monitoring, and health checks.
+# ⚡ CacheGate
 
-## ✨ Features
+### A Redis-Powered API Gateway for High-Performance Caching
 
-* ⚡ Redis-powered response caching
-* ⏳ Configurable TTL (Time-To-Live)
-* 📊 Cache hit/miss metrics
-* ❤️ Health monitoring endpoint
-* 📝 Structured logging with Winston
-* 📈 Request latency tracking
-* 🌐 Dynamic upstream API support
-* 🔄 Cache key generation strategy
-* 🛡 Error handling middleware
-* 🐳 Dockerized Redis setup
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+
+> **30× faster responses** through intelligent Redis response caching, TTL expiration, and full observability.
+
+</div>
 
 ---
 
-## 🏗 Architecture
+## 🏗 How It Works
 
-```text
-Client
-  │
-  ▼
-Express API Gateway
-  │
-  ├── Metrics Middleware
-  ├── Cache Middleware
-  ├── Logging Middleware
-  ├── Health Checks
-  │
-  ▼
-Redis Cache
-  │
-  ▼
-External API
-(JSONPlaceholder, DummyJSON, GitHub API, etc.)
+```
+  Client Request
+       │
+       ▼
+┌─────────────────────────────────┐
+│         Express Gateway         │
+│                                 │
+│  📊 Metrics → 🗂 Cache Check    │
+│       │              │          │
+│       │         Cache HIT ✅    │
+│       │              │          │
+│  Cache MISS ❌        │          │
+│       │              │          │
+│       ▼              │          │
+│  🌐 External API     │          │
+│       │              │          │
+│  💾 Store in Redis   │          │
+└───────┼──────────────┼──────────┘
+        └──────┬───────┘
+               ▼
+         Response (~5ms)
 ```
 
 ---
 
-## ⚡ Performance
+## ✨ Features at a Glance
 
-Example benchmark:
-
-| Request Type | Response Time |
-| ------------ | ------------- |
-| Cache Miss   | ~180ms        |
-| Cache Hit    | ~5ms          |
-
-> Achieved up to 30x faster response times through Redis caching.
+| Feature | Description |
+|---|---|
+| ⚡ **Redis Caching** | Lightning-fast response storage with configurable TTL |
+| 📊 **Hit/Miss Metrics** | Real-time cache performance stats via `/stats` |
+| ❤️ **Health Checks** | Live service status via `/health` |
+| 📝 **Winston Logging** | Structured, production-grade request logging |
+| 🌐 **Dynamic Origins** | Point the gateway at any upstream API at runtime |
+| 🛡 **Error Middleware** | Graceful failure handling throughout the request lifecycle |
 
 ---
 
-## 📊 Observability
+## 📈 Performance
 
-### Health Endpoint
-
-```http
-GET /health
+```
+Cache Miss  ████████████████████  ~180ms
+Cache Hit   █  ~5ms
 ```
 
-Response:
+> Up to **30× faster** on repeated requests — Redis serves cached responses before your upstream even gets pinged.
+
+---
+
+## 🔭 Observability
+
+<details>
+<summary><b>GET /health</b> — Service liveness</summary>
 
 ```json
 {
@@ -70,14 +78,10 @@ Response:
   "uptime": 1234
 }
 ```
+</details>
 
-### Metrics Endpoint
-
-```http
-GET /stats
-```
-
-Response:
+<details>
+<summary><b>GET /stats</b> — Cache performance metrics</summary>
 
 ```json
 {
@@ -88,47 +92,23 @@ Response:
   "redisKeys": 15
 }
 ```
+</details>
 
 ---
 
-## 🛠 Tech Stack
-
-* Node.js
-* Express.js
-* Redis
-* Docker
-* Winston
-* Axios
-* Dotenv
-
----
-
-## 🚀 Getting Started
-
-### Install Dependencies
+## 🚀 Quick Start
 
 ```bash
+# 1. Install dependencies
 npm install
-```
 
-### Start Redis
+# 2. Spin up Redis via Docker
+docker run -d --name redis-cache -p 6379:6379 redis
 
-```bash
-docker run -d \
---name redis-cache \
--p 6379:6379 \
-redis
-```
-
-### Run Application
-
-```bash
+# 3. Start the gateway
 npm start
-```
 
-### Run With Custom Origin
-
-```bash
+# Optional: point at a custom upstream origin
 node src/server.js --origin=https://dummyjson.com
 ```
 
@@ -136,43 +116,34 @@ node src/server.js --origin=https://dummyjson.com
 
 ## 📂 Project Structure
 
-```text
-src
-├── config
-├── middleware
-├── routes
-├── services
-├── metrics
-├── utils
-└── server.js
+```
+src/
+├── config/          # Environment & Redis config
+├── middleware/       # Cache, metrics, logging, error handling
+├── routes/          # Gateway route definitions
+├── services/        # Upstream API call logic
+├── metrics/         # Hit/miss counters
+├── utils/           # Cache key generation & helpers
+└── server.js        # Entry point
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+## 🔮 Coming Soon
 
-This project demonstrates:
-
-* API Gateway Design
-* Redis Caching Strategies
-* Middleware Architecture
-* Observability & Monitoring
-* Request Lifecycle Management
-* Production Logging
-* Error Handling Patterns
-* Docker Fundamentals
+- [ ] Route-specific cache invalidation
+- [ ] Rate limiting with Redis
+- [ ] Stale-While-Revalidate strategy
+- [ ] Docker Compose support
+- [ ] Live monitoring dashboard
+- [ ] Multi-origin cache isolation
 
 ---
 
-## 🔮 Upcoming Features
+<div align="center">
 
-* Route-specific cache invalidation
-* Rate limiting with Redis
-* Stale-While-Revalidate caching
-* Docker Compose support
-* Monitoring dashboard
-* Multi-origin cache isolation
+Built to explore **production-grade backend engineering** with Node.js and Redis.
 
----
+*API Gateway Design · Redis Caching · Middleware Architecture · Observability · Docker*
 
-Built to explore production-grade backend engineering concepts using Node.js and Redis.
+</div>
